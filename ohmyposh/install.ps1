@@ -2,7 +2,7 @@
 # Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
 
 param (
-    [Parameter(Mandatory = $false)][string]$config = "https://github.com/mlhein/getme/ohmyposh/themes/me.omp.json"
+    [Parameter(Mandatory = $false)][string]$config = "https://raw.githubusercontent.com/mlhein/getme/main/ohmyposh/themes/me.omp.json"
 )
 
 winget list -e JanDeDobbeleer.OhMyPosha
