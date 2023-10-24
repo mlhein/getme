@@ -8,8 +8,7 @@ param (
 winget list -e JanDeDobbeleer.OhMyPosha
 $ohmyposhisinstalled = $?
 if ( ! $ohmyposhisinstalled) {
-    # winget.exe install JanDeDobbeleer.OhMyPosh -s winget 
-    Write-Output "INSTALLING"
+    winget.exe install JanDeDobbeleer.OhMyPosh -s winget 
 }
 else {
     Write-Output "ALREADY INSTALLED" 
