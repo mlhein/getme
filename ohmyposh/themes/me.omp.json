@@ -9,7 +9,7 @@
           "type": "os",
           "style": "plain",
           "foreground": "p:os",
-          "template": "{{ if .WSL }}WSL:{{ end }}{{.Icon}} "
+          "template": "{{.Icon}} "
         },
         {
           "type": "kubectl",
