@@ -6,6 +6,12 @@
       "newline": true,
       "segments": [
         {
+          "type": "python",
+          "style": "plain",
+          "foreground": "p:os",
+          "template": "{{if .Venv}}({{.Venv}}</>) {{end}}"
+        },
+        {
           "type": "os",
           "style": "plain",
           "foreground": "p:os",
